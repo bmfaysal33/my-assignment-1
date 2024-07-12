@@ -313,8 +313,10 @@ font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
+
 }
 .target-card-box{
+display: flex;
 
 }
 
@@ -325,11 +327,12 @@ text-align: center;
 font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 700;
-line-height: 19px;
+
 letter-spacing: 0%;
 text-align: left;
 text-decoration-line: underline;
 cursor: pointer;
+
 }
 
 .target-card-title{
@@ -337,7 +340,7 @@ cursor: pointer;
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
-    line-height: 36px;
+    line-height: 50px;
     letter-spacing: 0%;
     text-align: left;
 }
@@ -347,9 +350,119 @@ cursor: pointer;
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 40px;
     letter-spacing: 0%;
     text-align: left;
+    
 }
 
+
+
+.c-box-1{
+    
+width: 364px;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: start;
+padding: 40px;
+
+margin: 20px 24px;
+border-radius: 16px;
+background: rgba(255, 75, 30, 0.136);
+
+}
+
+
+
+
+/* Support Box  */
+
+
+.support{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.sup-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url( ../assets/handshake.jpg);
+    width: 1044px;
+    height: 186px;
+    border-radius: 16px;
+    margin: 50px auto;
+    
+}
+
+.sup-title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.sup-desc{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#input-form{
+    display: flex;
+    width: fit-content;
+    border: none;
+    gap: 35px;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    
+}
+
+.input-1 ,.input-2 {
+    border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+
+
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.support .sup-box .input-1{
+    width: 650px;
+    padding: 15px;
+}
+
+.sup{
+}
+
+.input-2{
+    
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+
+
+}
 
